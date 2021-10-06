@@ -100,6 +100,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.audiozoom.enable=false \
     vendor.audio.feature.snd_mon.enable=false
 
+# Additional props
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.cgroup_follow.enable=true
+    persist.vendor.qti.inputopts.enable=true
+    persist.vendor.qti.inputopts.movetouchslop=0.6
+    ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # Better Ram
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.fha_enable=true \
