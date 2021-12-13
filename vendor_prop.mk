@@ -97,6 +97,13 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     vendor.bluetooth.soc=cherokee \
     persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
 
+#Blur
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1 \
+    debug.sf.disable_backpressure=1 \
+    persist.sys.sf.disable_blurs=1
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.HAL3.enabled=1
