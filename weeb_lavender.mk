@@ -29,6 +29,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
     PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="coral-user 12 SQ1A.211205.008 7888514 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 12 SP2A.220305.012 8177914 release-keys"
 
-BUILD_FINGERPRINT :="google/coral/coral:12/SQ1A.211205.008/7888514:user/release-keys"
+BUILD_FINGERPRINT :="google/coral/coral:12/SP2A.220305.012/8177914:user/release-keys"
