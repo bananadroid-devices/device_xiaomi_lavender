@@ -30,4 +30,9 @@
     <!-- Multi user switch has some intrinsic padding to it -->
     <dimen name="multi_user_switch_keyguard_margin">25px</dimen>
     <dimen name="keyguard_carrier_text_margin">55px</dimen>
+
+    <!-- dimensions for the navigation bar handle -->
+    <dimen name="navigation_handle_radius">2dp</dimen>
+    <dimen name="navigation_handle_bottom">8dp</dimen>
+    <dimen name="navigation_home_handle_width">108dp</dimen>
 </resources>
